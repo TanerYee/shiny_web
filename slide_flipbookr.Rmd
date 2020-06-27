@@ -159,7 +159,7 @@ title(sub = "Data is from Ezekiel's (1930) 'Methods of Correlation Analysis'.")
 
 
 ---
-<!-- page_-2  -->
+<!-- page_-3  -->
 
 ```{r, echo = F}
 philosophy <- 
@@ -170,7 +170,15 @@ philosophy <-
 
 
 `r text_reveal(text = philosophy, sep = "\\|")`
+---
+<!-- page_-2  -->
 
+```{r,echo = F}
+mind <- '心得分享|0.學習是有趣的|1.從模仿開始|參考大神們的作品|2.多樣化、客製化|改良、延伸自己的想法|3.保持熱忱|warning message & error message|4.成就感|step by step'
+
+
+```
+`r text_reveal(text = mind, sep = "\\|")`
 ---
 class: middle, inverse, center
 <!-- page_-1  -->
